@@ -10,7 +10,7 @@ end
     local user = 'user#id'
     local chat = 'chat#id'..msg.to.id
     chat_add_user(chat, user, callback, false)
-    return "Admin Added To: "..string.gsub(msg.to.print_name, "_", " ")..'['..msg.to.id..']'
+    return "ادمین ادد شد در: "..string.gsub(msg.to.print_name, "_", " ")..'['..msg.to.id..']'
 end
 return {
     usage = {
