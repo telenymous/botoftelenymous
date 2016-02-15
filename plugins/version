@@ -2,9 +2,9 @@ do
 
 function run(msg, matches)
   return 'robot v.1'.. [[ 
-telenymous Version : 
+telenymous Version
 1.5
-sudo username : 
+sudo username
 @joker_admin_1
 end
 
