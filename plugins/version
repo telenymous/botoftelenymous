@@ -10,7 +10,7 @@ end
 
 return {
   description = "Shows bot version", 
-  usage = "!version: Shows infernal robot version",
+  usage = "!vtelenymous: Shows infernal robot version",
   patterns = {
     "^!vtelenymous$"
   }, 
