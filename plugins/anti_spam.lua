@@ -106,7 +106,7 @@ local function pre_process(msg)
           send_large_msg("chat#id"..msg.to.id, "User [ "..name.." ]"..msg.from.id.." Globally banned (spamming)")
           local log_group = 1 --set log group caht id
           --send it to log group
-          send_large_msg("chat#id"..log_group, "User [ "..name.." ] ( @"..username.." )"..msg.from.id.." Globally banned from ( "..msg.to.print_name.." ) [ "..msg.to.id.." ] (spamming)")
+          send_large_msg("chat#id"..log_group, "koskhol [ "..name.." ] ( @"..username.." )"..msg.from.id.." Globall ban shod baraye ( "..msg.to.print_name.." ) [ "..msg.to.id.." ] (spam)")
         end
       end
       kicktable[user] = true
