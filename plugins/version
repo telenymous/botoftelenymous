@@ -4,7 +4,7 @@ function run(msg, matches)
   return 'robot v.1'.. [[ 
 telenymous Version
 1.5
-sudo username
+Developer username
 @joker_admin_1
 end
 
